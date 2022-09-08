@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-size: 19px;
+}
+body{
+    background: no-repeat center url("../images/index.jpg"); /* Фоновый цвет и фоновый рисунок*/
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 650px;*/
+    /*height: auto;*/
+    height: 100vh;
+}
+p{
+    font-size: 21px;
+}
+label{
+    font-size: 25px;
+}
+.parent .button_new_reg{
+    margin-bottom: 50px;
+}
+.start_window span,
+.reg_window span{
+    color: red;
+    font-size: 13px;
+    margin-left: 100px;
+}
+.info{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.block {
+    /*background-color: rgb(62, 191, 255);*/
+    /*background: gray();*/
+    /*border-radius: 80px;*/
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.block_reg{
+    width: 450px;
+}
+.block_info{
+    margin-left: 40px;
+}
+.block_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.parent .new_record{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    gap: 20px;
+}
+.h_new_reg{
+    font-size: 38px;
+    margin-top: 50px;
+}
+.file{
+    background: none;
+}
+form{
+    margin: auto;
+}
+.return{
+    align-self: center;
+}
+button{
+    border: solid 0px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.block_button{
+    margin-left: 55px;
+}
+.block2{
+    height: 550px;
+    width: 350px;
+}
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.block_menu h2{
+    font-size: 40px;
+    margin: 0px 0px 40px 40px;
+}
+.h_reg{
+    margin: 0px 0px 0px 0px;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 0px;
+    color: black;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+input{
+    background-color: white;
+    border-radius: 40px;
+    padding: 8px;
+    padding-left: 15px;
+    border: darkgray solid 0.5px;
+    margin: 5px 0px 5px 10px;
+}
+button{
+    margin: 5px 0px 5px 10px;
+}
+.text_reg {
+    margin: 0px 0px 0px 10px;
+}
+.text1{
+    margin-left: 50px;
+}
+.text2{
+    margin-left: 45px;
+}
+.text_login{
+    margin-left: 45px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+.button_reg{
+    margin: 25px 0px 0px 10px;
+}
+.parent .box{
+    border: solid black 1px;
+}
+textarea {
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+
